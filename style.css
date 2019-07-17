@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	
+}
+.img-jogo{
+	width: 100% !important;
+	height: 150px !important;
+	cursor: pointer;
+	border: 2px solid grey;
+}.img-jogo:hover{
+	border: 2px solid blue;
+	z-index: 2;
+	padding: 1px;
+}
+#principal{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-gap: 5px;
+}
