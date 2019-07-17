@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	height: 100vh;
+	position: relative;
+
+}
+.img-jogo{
+	width: 100% !important;
+	height: 150px !important;
+	cursor: pointer;
+	border: 2px solid grey;
+}.img-jogo:hover{
+	border: 2px solid blue;
+	z-index: 2;
+	padding: 1px;
+}
+#principal{
+	width: 90%;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-gap: 3px;
+	margin: auto;
+
+}.contador{
+	border: 2px solid black;
+	max-width: 40%;
+	border-radius: 10px 10px 10px 10px;
+	margin: 0 auto;
+	padding: 5px;
+	margin-bottom:  1%;
+	margin-top:  1%;
+}
+.contador  p{
+	font: 800 20px 'Arial' !important;
+	display: inline;
+	margin-left: 5%;
+	
+}header{
+	max-width: 100%;
+	
+}

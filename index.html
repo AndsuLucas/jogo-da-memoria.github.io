@@ -4,19 +4,24 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Jogo da memória</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="assets/css/style.css">
 	</head>
-	<body>
-		<header>
+	<body class="site">
+		<header class="cabeçalho">
 			<h1>Jogo da memória do <a href="https://www.facebook.com/profile.php?id=100025732486994">Anderson Lucas</a></h1>
 		</header>
 	
 		<main>
-			<div class="contator">
-				<span id="jogadas"></span>
-				<span id="pontos"></span>
-			</div>
-			<div id="principal">
+			<section class="contador">
+				<p>Jogadas:<span id="jogadas"></span></p>
+				<p>Pontos:<span id="pontos"></span></p>
+				<p id="temporizador">Tempo:
+					<span id="hora"></span>
+					<span id="minuto"></span>
+					<span id="segundo"></span>
+				</p>
+			</section>
+			<section id="principal">
 				<img src="assets/imagens/preto.jpg" alt="" class="img-jogo">
 				<img src="assets/imagens/preto.jpg" alt="" class="img-jogo">
 				<img src="assets/imagens/preto.jpg" alt="" class="img-jogo">
@@ -33,12 +38,13 @@
 				<img src="assets/imagens/preto.jpg" alt="" class="img-jogo">
 				<img src="assets/imagens/preto.jpg" alt="" class="img-jogo">
 				<img src="assets/imagens/preto.jpg" alt="" class="img-jogo">
-			</div>
+			</secion>
 		</main>
 		<footer>
 			<h2>Código fonte: <a href="https://github.com/AndsuLucas/JAVASCRIPT-PROJETCS">Javascript-Projects</a></h2>
 		</footer>
 	</body>
 	
-	<script src="mainscript.js"></script>
+	<script src="assets/scripts/mainscript.js"></script>
+	<script src="assets/scripts/time.js"></script>
 </html>
